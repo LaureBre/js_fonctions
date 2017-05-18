@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="img.ico" />
+</head>
+
+<body>
+  <div id="bidule">div<b> visée </b>
+      <input id="gla" type="text" value="input text ne sera pas modifié malheureusement" size=60>
+      <br />
+      <button id="bouton" onClick="maj('bidule'); maj('champ')" value="valeur">un bouton avec
+        <a>un lien pour lancer la fonction</a>
+      </button>
+      <br />
+      <input id="champ" type="text" value="un autre input text mais visé par un 2ème appel de la fonction" size=60>
+      <br />
+      du texte tout seul
+        <em> emphasize
+          <code> puis code </code>
+        </em>
+      encore un peu de texte
+      <div>une division fille</div>
+      <div id='frere'>la soeur de la précédente
+        <div>la fille de la soeur de la soeur</div>
+        <div>
+          <div>la soeur de la fille de la soeur de la soeur</div>
+        </div>
+        <div>la tante de la précédente
+          <div>sa fille
+            <div>sa petite-fille</div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div id="deux">
+      <div>
+        <p>un paragraphe <em> dans une autre div <i>non</i> fille de la div dont on a envoyé l'id</em></p>
+        <a><img src=""></a>
+        <input type="checkbox" value="Oui" onClick="al();" id="case">
+      </div>
+  </div>
+  <div id="trois">du bruit</div>
+
+  <script src="js/maj.js"></script>
+  <script src="js/accents.js"></script>
+</body>
+</html>
